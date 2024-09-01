@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(0, 0, 33);
+            color: #fff;
+        }
+        p{
+            font-size: 25px;
+        }
+
+        /* Header Section */
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 85px;
+            background-color: rgb(7, 7, 63);
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.01rem;
+
+        }
+
+        /* Style the contact section */
+        .contact {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contact h2 {
+            margin-bottom: 10px;
+        }
+
+        .contact p {
+            margin: 5px 0;
+        }
+
+        .contact a {
+            color: rgb(95, 18, 18);
+            text-decoration: none;
+        }
+        .contact a:hover{
+            color: rgb(53, 3, 3);
+        }
+
+
+        /* Footer Starts */
+
+        footer {
+            background-color: #0e0e1a;
+
+              height: auto;
+        }
+
+        .footer {
+            margin-top: 150px;
+            display: flex;
+            padding: 23px 123px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 225px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: grey;
+            padding: 12px 0;
+        }
+
+        .footer .footer-third ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .footer .footer-third ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.01rem;
+
+        }
+
+        .footer .footer-second ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .footer .footer-second ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.01rem;
+
+        }
+        .footer .footer-fourth ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .footer .footer-fourth ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.01rem;
+
+        }
+
+        /* Make footer text smaller on smaller screens */
+        @media (max-width: 600px) {
+            footer {
+                font-size: 14px;
+            }
+        }
+    </style>
+    <title>Contact Us - Mayur's Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Mayur's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="about.html">About</a> </li>
+                    <li><a href="certifications.html">Certifications</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contactme.html">Conatct Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="contact">
+        <h1>Contact Us</h1>
+        <address>
+            <p><strong>Name:</strong> Mayur Dhavan</p>
+            <p><strong>Address:</strong> Wagholi, Pune</p>
+            <p><strong>Mobile:</strong> 7822005892</p>
+            <p><strong>Email:</strong> <a href="mailto:mayurdhavan2244@gmail.com">mayurdhavan2244@gmail.com</a></p>
+            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/mayur_dhavan_"
+                    target="blank">@mayur_dhavan</a></p>
+        </address>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Mayur's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="about.html">About</a> </li>
+                    <li><a href="certifications.html">Certifications</a></li>
+                    <li><a href="contactme.html">Conatct Me</a></li>
+                </ul>
+
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><img src="instagram-1-svgrepo-com.svg" height="15px"> <a href="https://www.instagram.com/mayur_dhavan_"
+                            target="_blank">Instagram</a></li>
+                    <li><img src="github-svgrepo-com.svg" height="18px" width="17px"><a href="https://github.com/mayur-dhavan" target="_blank"> GitHub
+                    </li>
+                    <li><img src="linkedin-icon-svgrepo-com.svg" height="15px"><a href="https://www.linkedin.com/in/mayur-dhavan-50902922b" target="_blank">LinkedIn</li></a>
+                    <li><img src="youtube.svg" height="15px"><a href="youtube.com" target="_blank">YouTube </li></a>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="about.html">About</a> </li>
+                    <li><a href="certifications.html">Certifications</a></li>
+                    <li><a href="contactme.html">Conatct Me</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; 2023 www.mayursportfolio.com | All rights reserved
+        </div>
+
+    </footer>
+</body>
+
+</html>
